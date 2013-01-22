@@ -6,6 +6,11 @@ Home page:    <https://metacpan.org/release/Module-Install-Copyright>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-Copyright>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.003  2013-01-22
+
+ - (Bugfix) Underscores in stanza properties are now properly replaced with
+   hyphens.
+
 0.002  2013-01-21
 
  - Drop Debian::Copyright dependency; serialize Debian copyright format

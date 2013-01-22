@@ -51,6 +51,7 @@ sub _serialize_stanza
 	my $str;
 	for my $f ($self->FIELDS)
 	{
+		my $F = join "-", map ucfirst, split "_", $f;
 		my $v = $self->$f;
 		if ($f eq 'body') {
 			$v =~ s{^}" "mg;
@@ -58,11 +59,11 @@ sub _serialize_stanza
 		}
 		elsif (ref $v eq "ARRAY") {
 			$v = join "\n " => @$v;
-			$str .= "${\(ucfirst $f)}: $v\n";
+			$str .= "$F: $v\n";
 		}
 		elsif (defined $v and length $v) {
 			$v =~ s{^}" "mg;
-			$str .= "${\(ucfirst $f)}:$v\n";
+			$str .= "$F:$v\n";
 		}
 	}
 	return $str;
@@ -70,7 +71,7 @@ sub _serialize_stanza
 
 our $AUTHOR_ONLY = 1;
 our $AUTHORITY   = 'cpan:TOBYINK';
-our $VERSION     = '0.002';
+our $VERSION     = '0.003';
 
 use RDF::Trine::Namespace qw[RDF RDFS OWL XSD];
 my $CPAN = RDF::Trine::Namespace->new('http://purl.org/NET/cpan-uri/terms#');

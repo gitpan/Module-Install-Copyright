@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream_name: Module-Install-Copyright
-Upstream_contact: Toby Inkster <tobyink@cpan.org>
+Upstream-Name: Module-Install-Copyright
+Upstream-Contact: Toby Inkster <tobyink@cpan.org>
 Source: https://metacpan.org/release/Module-Install-Copyright
 
 Files: Changes

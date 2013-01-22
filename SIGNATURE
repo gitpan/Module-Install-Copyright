@@ -14,15 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 827809bcd6cdeb3c541aec88d5e25474673290f3 COPYRIGHT
-SHA1 9d16aa8b41a08789bcaca01fef12f539107dd322 Changes
+SHA1 27efdd555ae5015fe23e4a653ae8ae6deeb95cdd COPYRIGHT
+SHA1 c09a2082c69a56888b60232ffdfc477033acbf05 Changes
 SHA1 58e47fed556f626572681c48158a3ecd44ce179d HACKING
 SHA1 937d452c5c4069f4cda9ffaf45a33f1eb5f060e8 LICENSE
 SHA1 04d3e97e42891f89d94ca7dcb843970f3c0c8cd9 MANIFEST
-SHA1 e489c1b4c05e9c89920a6c3818bfdfcb9429c338 META.yml
+SHA1 ee97a85a891078d6a7b1c5eaa40edbe3e3171e47 META.yml
 SHA1 e43588806edb861623f266122d112f5329ef8821 Makefile.PL
 SHA1 29ac1310a311e93aa33991a2b6ce85055bb757a3 README
-SHA1 5dc2235bf2bc1dad7f703ece69cf34c2eb7c4394 examples/example-output.txt
+SHA1 27efdd555ae5015fe23e4a653ae8ae6deeb95cdd examples/example-output.txt
 SHA1 06c410f05488c1612ed66b06d3a86b2580581e4a inc/Module/AutoInstall.pm
 SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
 SHA1 61ab1dd37e33ddbe155907ce51df8a3e56ac8bbf inc/Module/Install/AutoInstall.pm
@@ -43,9 +43,9 @@ SHA1 0e0eed2e69d9583081868cf4f220068d0a018568 inc/Scalar/Util.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
 SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
 SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 8a8e684e6e4240b1e8c228762385c2564c5a621b lib/Module/Install/Admin/Copyright.pm
-SHA1 282a1a3f08f1485b0fdcdd3373a8bc52305d8637 lib/Module/Install/Copyright.pm
-SHA1 5acc8d20789ed6416d6fdbcbb5ad45d3837abbe2 meta/changes.pret
+SHA1 7a43bfec87cbfc2211f43ebc362c028e2be4943b lib/Module/Install/Admin/Copyright.pm
+SHA1 bfd4183f4ee61aae2d1d277a593bc5c2f5070ca9 lib/Module/Install/Copyright.pm
+SHA1 836829497103b9fab121b45c81d3e48e8a00ffa6 meta/changes.pret
 SHA1 93d54db8f464fb3accfb5ae910ead6317455e506 meta/doap.pret
 SHA1 eaad1e8b05628cf89f664a4fceca7e34b82572a7 meta/makefile.pret
 SHA1 a151cff74b5f29c00381a14d4ec8726e3763b6b2 meta/people.pret
@@ -53,7 +53,7 @@ SHA1 2a09529a43f0a9fce64da320ebd76d898d339a71 t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAlD9ybwACgkQzr+BKGoqfTkeowCdGPmhK7zUvSOfgcOO8wRsz2lt
-RKMAnjqsJAfTq8s/EUmVh8lly4a0rHG+
-=Hmmz
+iEYEARECAAYFAlD+XLcACgkQzr+BKGoqfTm1zQCeOw9+rEWdksNSuR9S/DEbyliR
+pEoAn2RPNYzDo2YcFXg2pAkp+F1SUJWA
+=Egsn
 -----END PGP SIGNATURE-----
