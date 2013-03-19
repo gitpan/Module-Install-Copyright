@@ -1,5 +1,6 @@
 Changes
 COPYRIGHT
+CREDITS
 examples/example-output.txt
 HACKING
 inc/Module/AutoInstall.pm
@@ -23,10 +24,13 @@ inc/unicore/Name.pm
 inc/utf8.pm
 inc/YAML/Tiny.pm
 lib/Module/Install/Admin/Copyright.pm
+lib/Module/Install/Admin/Credits.pm
 lib/Module/Install/Copyright.pm
+lib/Module/Install/Credits.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
+META.ttl
 META.yml
 meta/changes.pret
 meta/doap.pret
