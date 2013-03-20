@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a5e9fef0a21d170c9784272a1465e4f8d46893d1 COPYRIGHT
+SHA1 12cdebcd5c77338bef030799125cf6e32681acd7 COPYRIGHT
 SHA1 21aa0630ce0024c7e006a3232fbe18027eff76ab CREDITS
-SHA1 3173f48ca912c5d1e31c24c5d57a598ce71e819b Changes
+SHA1 8ec5ffbbf05a2baca5289ec230488fca03c957bb Changes
 SHA1 58e47fed556f626572681c48158a3ecd44ce179d HACKING
 SHA1 937d452c5c4069f4cda9ffaf45a33f1eb5f060e8 LICENSE
-SHA1 c3ec475208c58268c688373c34f6ab4f151cb5b2 MANIFEST
-SHA1 0d60524f9f6ff2fa335bae3234dff65e3191a482 META.ttl
-SHA1 1db8674f463eaf0ec7117f2e67f4d84b372e450b META.yml
+SHA1 350d1469a17c0fd63e69d88d2ade089710f03479 MANIFEST
+SHA1 71021720dbd6999d3c52efadcc7bd29b03dbad7d META.ttl
+SHA1 6e8d6c0667c51196787f501d81cdf1855779cbc6 META.yml
 SHA1 cdb0a8b531e0a5b24063c5cca2ad1b6f825fe96a Makefile.PL
 SHA1 29ac1310a311e93aa33991a2b6ce85055bb757a3 README
 SHA1 27efdd555ae5015fe23e4a653ae8ae6deeb95cdd examples/example-output.txt
@@ -36,20 +36,17 @@ SHA1 66d3d335a03492583a3be121a7d888f63f08412c inc/Module/Install/Include.pm
 SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
 SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
 SHA1 3b9281ddf7dd6d6f5de0a9642c69333023193c80 inc/Module/Install/Package.pm
-SHA1 9de7b5129351499c048328dfa718d0eab557cf30 inc/Module/Install/TrustMetaYml.pm
+SHA1 41f76ff6b39368a65da86377e43b34bacc2fb0eb inc/Module/Install/TrustMetaYml.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
 SHA1 5a2f84a7a82eee0d1e5ed3628fe503a608efc10f inc/Module/Package/Dist/RDF.pm
-SHA1 ae92606512343264831f51fcf985b7f0b3e6e2ef inc/Scalar/Util.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
-SHA1 8105c0510a773b56840995fb4dd2dc64fe9ddaee inc/unicore/Name.pm
-SHA1 36df501c7c9b73c282c5174ed54d8283b2f2cbf2 inc/utf8.pm
-SHA1 399e85f276343e124dd68c96903f77a2b00fc68e lib/Module/Install/Admin/Copyright.pm
-SHA1 4e2c8eddeb903f00f5ca9a7d16caca4b14a1ca46 lib/Module/Install/Admin/Credits.pm
-SHA1 08d6c3fa5de8ec44ef1cc9d3ebecbb3c5d870db6 lib/Module/Install/Copyright.pm
-SHA1 0b03b8711caff33378bf8f85e5c2e06efdcf9449 lib/Module/Install/Credits.pm
-SHA1 bf909bf90aedac0fabe466e47484b2d1b1666ca9 meta/changes.pret
+SHA1 c36c90f3363f079810fc033467c6d0e139f097fb lib/Module/Install/Admin/Copyright.pm
+SHA1 2728a0297330110266dde0e05ed6128c4869c18d lib/Module/Install/Admin/Credits.pm
+SHA1 8e319dc325215c7a53c8b7043ed879d5e931b3e9 lib/Module/Install/Copyright.pm
+SHA1 15f09b451d39bafbf92cd1f2b8617f10dc592e0f lib/Module/Install/Credits.pm
+SHA1 b78ff24ee048768deab8aacc5b9b07f6e898fba6 meta/changes.pret
 SHA1 251e2bad3922e9ff03b3aae2e653a73b8a990dbb meta/doap.pret
 SHA1 eaad1e8b05628cf89f664a4fceca7e34b82572a7 meta/makefile.pret
 SHA1 4634788f46ffa00591446a2fe9f8d9e5364e5485 meta/people.pret
@@ -57,7 +54,7 @@ SHA1 2a09529a43f0a9fce64da320ebd76d898d339a71 t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAlFI9FEACgkQzr+BKGoqfTnQFACcCjt8z99sW1ZWXaX/dtgDdumm
-HPsAn3JWHKPw7KcZVIeNXoakJwixGUcK
-=ZHSc
+iEYEARECAAYFAlFJjKsACgkQzr+BKGoqfTnfmgCePULW8cP4E3G1mBi8L86yVmDD
+DXkAni38FTEimIsBG/tV+HU7w6inz2lH
+=CPsr
 -----END PGP SIGNATURE-----

@@ -19,9 +19,6 @@ inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 inc/Module/Package.pm
 inc/Module/Package/Dist/RDF.pm
-inc/Scalar/Util.pm
-inc/unicore/Name.pm
-inc/utf8.pm
 inc/YAML/Tiny.pm
 lib/Module/Install/Admin/Copyright.pm
 lib/Module/Install/Admin/Credits.pm
