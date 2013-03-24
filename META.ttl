@@ -28,6 +28,7 @@ dist:project
 	];
 	cpant:requires    "List::MoreUtils"^^cpant:dsWithoutVersion;
 	cpant:requires    "Module::Install::Admin::RDF"^^cpant:dsWithoutVersion;
+	cpant:requires    "Module::Install::Contributors"^^cpant:dsWithoutVersion;
 	cpant:requires    "Module::Manifest"^^cpant:dsWithoutVersion;
 	cpant:requires    "MooX::Struct"^^cpant:dsWithoutVersion;
 	cpant:requires    "Path::Class"^^cpant:dsWithoutVersion;
@@ -55,6 +56,7 @@ dist:project
 	doap:release      dist:v_0-003;
 	doap:release      dist:v_0-004;
 	doap:release      dist:v_0-005;
+	doap:release      dist:v_0-006;
 	doap:shortdesc    "package a COPYRIGHT file with a distribution".
 
 dist:v_0-001
@@ -121,6 +123,20 @@ dist:v_0-005
 	dcs:released-by   cpan:tobyink;
 	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-Copyright-0.005.tar.gz>;
 	doap:revision     "0.005"^^xsd:string.
+
+dist:v_0-006
+	a                 doap:Version;
+	dc:identifier     "Module-Install-Copyright-0.006"^^xsd:string;
+	dc:issued         "2013-03-24"^^xsd:date;
+	dcs:changeset     [
+		dcs:item [
+			a dcs:Change;
+			rdfs:label "Module::Install::Credits now adds 'x_contributors' key to META.yml.";
+		];
+	];
+	dcs:released-by   cpan:tobyink;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-Copyright-0.006.tar.gz>;
+	doap:revision     "0.006"^^xsd:string.
 
 cpan:jonass
 	a                 foaf:Person;

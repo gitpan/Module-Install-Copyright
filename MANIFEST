@@ -1,8 +1,8 @@
 Changes
+CONTRIBUTING
 COPYRIGHT
 CREDITS
 examples/example-output.txt
-HACKING
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm

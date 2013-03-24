@@ -3,9 +3,9 @@ Upstream-Name: Module-Install-Copyright
 Upstream-Contact: Toby Inkster <tobyink@cpan.org>
 Source: https://metacpan.org/release/Module-Install-Copyright
 
-Files: CREDITS
+Files: CONTRIBUTING
+ CREDITS
  Changes
- HACKING
  LICENSE
  MANIFEST.SKIP
  META.ttl
