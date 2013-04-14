@@ -6,7 +6,7 @@ use strict;
 
 our $AUTHOR_ONLY = 1;
 our $AUTHORITY   = 'cpan:TOBYINK';
-our $VERSION     = '0.006';
+our $VERSION     = '0.007';
 
 use Module::Install::Contributors 0.001;
 use Module::Install::Admin::RDF 0.003;
@@ -38,7 +38,7 @@ sub write_credits_file
 			printf $fh " <%s>", $person->{mbox} if $person->{mbox};
 			printf $fh "\n";
 			
-			unless ($role eq "maintainer") # maintainers are not contributors
+			if ($role eq "contributor")
 			{
 				my $contributor = $person->{mbox}
 					? sprintf("%s <%s>", ($person->{name}//$person->{nick}//$person->{cpanid}//"Anon"), $person->{mbox})
