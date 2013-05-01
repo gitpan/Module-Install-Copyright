@@ -16,12 +16,12 @@ Hash: SHA1
 
 SHA1 f983c18fdb491c4b733235d54e8ca7563b67a6a3 CONTRIBUTING
 SHA1 63395fdebebecf0b66dc23ecbe1f6e0ac74cc686 COPYRIGHT
-SHA1 29f04b9210938da3dd2b07d97c8f54895215cfce CREDITS
-SHA1 c0e714c069c89fc7c6b13fc96a0fc8abf1076771 Changes
+SHA1 7b4e459d40351ea80ea47a89c2e4e9fa9e587253 CREDITS
+SHA1 df7cc564d8172c400d99603ca05e59c93ad7b3f6 Changes
 SHA1 937d452c5c4069f4cda9ffaf45a33f1eb5f060e8 LICENSE
 SHA1 dca0ca04c70f200b60387e727b847b1f7dcdb396 MANIFEST
-SHA1 ff1906aff5ac6ab6bd381605379502ad6abe8dcb META.ttl
-SHA1 f8300275e2f9b34d6f9a099bb850e4079cc6881e META.yml
+SHA1 a96e2a0673159bf847482e39b9364d851a13baea META.ttl
+SHA1 4ee6c3e2da145621a2bf4b8ef0bdabc6c34daf4a META.yml
 SHA1 cdb0a8b531e0a5b24063c5cca2ad1b6f825fe96a Makefile.PL
 SHA1 29ac1310a311e93aa33991a2b6ce85055bb757a3 README
 SHA1 27efdd555ae5015fe23e4a653ae8ae6deeb95cdd examples/example-output.txt
@@ -42,11 +42,11 @@ SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 26d58a041cd6b3d21db98b32e8fd1841aae21204 inc/Module/Package.pm
 SHA1 5a2f84a7a82eee0d1e5ed3628fe503a608efc10f inc/Module/Package/Dist/RDF.pm
 SHA1 feb933cefe2e3762e8322bd6071a2499f3440da1 inc/YAML/Tiny.pm
-SHA1 09edeb51afec26290997f19d8c8ea043c86629b6 lib/Module/Install/Admin/Copyright.pm
-SHA1 6eeed973b17fb669c6766413d441cf3ff2cf1a6d lib/Module/Install/Admin/Credits.pm
-SHA1 e835e78ccf80a35d3b237335d07f1be45fb94f64 lib/Module/Install/Copyright.pm
-SHA1 5368e69f1adf6b69db87a73ad5fcd6c34765d5dd lib/Module/Install/Credits.pm
-SHA1 31be593efe1378676a35dab3b8e7d5e9ebacf3e6 meta/changes.pret
+SHA1 67c68e57f629c4dfbcd833c843180b2bfab6f44b lib/Module/Install/Admin/Copyright.pm
+SHA1 7ebcbdb25db17ff1c69adecd8443f1dcbca98028 lib/Module/Install/Admin/Credits.pm
+SHA1 05793ff1182f8ab891422b8fe7db2193e6a96619 lib/Module/Install/Copyright.pm
+SHA1 45aab779e15f08a09b787b7922e3b6b485aebe10 lib/Module/Install/Credits.pm
+SHA1 fe791ca12ff0923e6f5e4707004b15c58208e65f meta/changes.pret
 SHA1 251e2bad3922e9ff03b3aae2e653a73b8a990dbb meta/doap.pret
 SHA1 71b4fece05f70aec21eb88332322caabf4183af6 meta/makefile.pret
 SHA1 4634788f46ffa00591446a2fe9f8d9e5364e5485 meta/people.pret
@@ -54,7 +54,7 @@ SHA1 2a09529a43f0a9fce64da320ebd76d898d339a71 t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAlFqbYsACgkQzr+BKGoqfTkzQgCdGHZgVwe+1kr1h4eZNUH0DRPF
-BuMAmwWBG4Gzd+wmtwRs/45+/7msNRqB
-=IsLl
+iEYEARECAAYFAlGBhUcACgkQzr+BKGoqfTltxgCfRGMDIaOjmbs7W2Me5vzMASgu
+BzAAoKZSKaFkpk0yk9NbyzMqXJcmUf3e
+=m1Hh
 -----END PGP SIGNATURE-----
