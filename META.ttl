@@ -59,6 +59,7 @@ dist:project
 	doap:release      dist:v_0-006;
 	doap:release      dist:v_0-007;
 	doap:release      dist:v_0-008;
+	doap:release      dist:v_0-009;
 	doap:shortdesc    "package a COPYRIGHT file with a distribution".
 
 dist:v_0-001
@@ -168,6 +169,20 @@ dist:v_0-008
 	dcs:released-by   cpan:tobyink;
 	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-Copyright-0.008.tar.gz>;
 	doap:revision     "0.008"^^xsd:string.
+
+dist:v_0-009
+	a                 doap:Version;
+	dc:identifier     "Module-Install-Copyright-0.009"^^xsd:string;
+	dc:issued         "2013-05-03"^^xsd:date;
+	dcs:changeset     [
+		dcs:item [
+			a dcs:Change;
+			rdfs:label "Don't include 'mailto:' in x_contributors for META.yml; MetaCPAN doesn't seem to like it.";
+		];
+	];
+	dcs:released-by   cpan:tobyink;
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-Copyright-0.009.tar.gz>;
+	doap:revision     "0.009"^^xsd:string.
 
 cpan:jonass
 	a                 foaf:Person;

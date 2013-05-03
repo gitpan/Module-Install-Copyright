@@ -6,7 +6,7 @@ use strict;
 
 our $AUTHOR_ONLY = 1;
 our $AUTHORITY   = 'cpan:TOBYINK';
-our $VERSION     = '0.008';
+our $VERSION     = '0.009';
 
 use Module::Install::Contributors 0.001;
 use Module::Install::Admin::RDF 0.003;
@@ -40,8 +40,11 @@ sub write_credits_file
 			
 			if ($role eq "contributor")
 			{
-				my $contributor = $person->{mbox}
-					? sprintf("%s <%s>", ($person->{name}//$person->{nick}//$person->{cpanid}//"Anon"), $person->{mbox})
+				my $mbox = $person->{mbox};
+				$mbox =~ s/^mailto://i if defined $mbox;
+				
+				my $contributor = $mbox
+					? sprintf("%s <%s>", ($person->{name}//$person->{nick}//$person->{cpanid}//"Anon"), $mbox)
 					: sprintf("%s",      ($person->{name}//$person->{nick}//$person->{cpanid}//"Anon"));
 				$self->contributors($contributor);
 			}
